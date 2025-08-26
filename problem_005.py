@@ -11,4 +11,9 @@ for number in range(20,1000000000000, 20):
         print(number)
         break
 
-#Lowest common multiple
+#Lowest common multiple, importing math
+import math
+LCM = 1
+for x in range(1,21):
+    LCM = math.lcm(LCM, x)
+print(LCM)
