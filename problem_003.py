@@ -7,3 +7,18 @@ for i in range (3, 600851475143 ,2):
     while number % i == 0 and number != i:
         number //= i
         print(number)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
